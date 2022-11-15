@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    {{>headerlinks}}
+</head>
+<body>
+    {{>navbar}}
+    <!-- main header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <!-- left side div -->
+                        <figure class="errimg">
+                            <img src="images/404.png" class="img-fluid" alt="kuldeep technical">
+                        </figure>
+                        <p class="mt-4">Welcome to weather app</p>
+                        <a href="/"><button>Go Back</button></a>                         
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </div>
+    <!-- footer code  -->
+   {{>footer}}
+</body>
+</html>
